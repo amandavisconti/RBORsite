@@ -46,6 +46,8 @@ pages_list:
   About: 'about'
   Team: 'team'
   Signup: 'signup'
+  Presskit: 'presskit'
+
 
 # Exclusion list from the generated _site
 exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".DS_STORE"]
