@@ -14,6 +14,16 @@ Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll 
  
 * [Live site](https://github.com/amandavisconti/RBORsite#live-site)
 
+## Accessibility
+
+This website is committed to accessibility for all users. For detailed information about our accessibility features and how to use the site with assistive technologies:
+
+* [Accessibility Statement](ACCESSIBILITY.md) - How we support users with disabilities
+* [Testing Guide](TESTING.md) - Comprehensive testing procedures
+* [Privacy Policy](PRIVACY.md) - How we protect your data
+
+We aim to meet WCAG 2.1 Level AA standards and welcome feedback on accessibility at info@beanandnothingness.com.
+
 ## Tasks
 Stuff we need/want to do for the website.
 
