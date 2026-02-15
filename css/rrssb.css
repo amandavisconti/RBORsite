@@ -2,6 +2,13 @@
 .rrssb-buttons:after{clear:both}
 .rrssb-buttons:after,.rrssb-buttons:before{content:' ';display:table}
 .rrssb-buttons li{box-sizing:border-box;float:left;height:100%;line-height:13px;list-style:none;margin:0;padding:0 2px}
+/* Improved minimum touch target size for mobile accessibility */
+@media (max-width: 768px) {
+  .rrssb-buttons li a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
 .rrssb-buttons li.rrssb-email a{background-color:#0a88ff}
 .rrssb-buttons li.rrssb-email a:hover{background-color:#006ed6}
 .rrssb-buttons li.rrssb-facebook a{background-color:#306199}
@@ -10,6 +17,11 @@
 .rrssb-buttons li.rrssb-twitter a:hover{background-color:#b21627}
 .rrssb-buttons li.rrssb-reddit a{background-color:#8bbbe3}
 .rrssb-buttons li.rrssb-reddit a:hover{background-color:#cc5200}
+/* Improved focus indicator for accessibility */
+.rrssb-buttons li a:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
 .rrssb-buttons li a{background-color:#ccc;border-radius:2px;box-sizing:border-box;display:block;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-weight:700;height:100%;padding:11px 7px 12px 27px;position:relative;text-align:center;text-decoration:none;text-transform:uppercase;-webkit-transition:background-color .2s ease-in-out;transition:background-color .2s ease-in-out;width:100%}
 .rrssb-buttons li a .rrssb-icon{display:block;left:10px;padding-top:9px;position:absolute;top:0;width:10%}
 .rrssb-buttons li a .rrssb-icon svg{height:17px;width:17px}
