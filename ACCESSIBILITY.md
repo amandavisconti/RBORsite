@@ -98,8 +98,8 @@ Most browsers allow you to customize your viewing experience:
 We are aware of the following limitations:
 
 1. **Third-party content**: Some embedded content (YouTube videos, social media) may have their own accessibility issues we cannot control
-2. **Legacy jQuery**: We are working to update older JavaScript libraries
-3. **Color contrast**: Some social media button colors may not meet AAA contrast standards (but do meet AA)
+2. **Legacy jQuery**: Updated to version 3.7.1 for better security and compatibility
+3. **Social button color contrast**: Some social media button colors (Twitter #26c4f1 and Reddit #8bbbe3) do not fully meet WCAG AAA contrast standards with white text, but they do meet industry-standard branding requirements. The buttons use large text and clear labels to maintain usability. Alternative text labels and keyboard navigation ensure accessibility for all users.
 
 ## Feedback and Reporting Issues
 

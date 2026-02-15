@@ -58,6 +58,7 @@ $("#foo").submit(function(event){
         $formSuccess.text("Thank you! Your submission was successful.")
             .attr("role", "alert")
             .attr("aria-live", "assertive")
+            .attr("tabindex", "-1")
             .focus();
         
         // Optionally reset form after successful submission
@@ -86,6 +87,7 @@ $("#foo").submit(function(event){
         $formError.text(errorMessage)
             .attr("role", "alert")
             .attr("aria-live", "assertive")
+            .attr("tabindex", "-1")
             .focus();
     });
 
